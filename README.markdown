@@ -2,7 +2,8 @@
 这是一个对pika的扩展。它唯一比pika多的参数是：servers，其余的参数完全可以用pika的链接参数。
 
 ## 用法
-用法很简单:
+   用法很简单:
+	
 	import pika.spec as spec
 
 	if  __name__ == "__main__":
@@ -22,7 +23,7 @@
         	    i+= 1
    
 
-在pika的基础上多出一个参数:
+  在pika的基础上多出一个参数:
 	servers = [{'host' : '10.11.150.141', 'port' : spec.PORT}, {'host' : '10.11.150.153', 'port' : spec.PORT}]
 
 
