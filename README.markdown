@@ -24,7 +24,7 @@
    
 
   在pika的基础上多出一个参数:
-	servers = [{'host' : '10.11.150.141', 'port' : spec.PORT}, {'host' : '10.11.150.153', 'port' : spec.PORT}]
+       servers = [{'host' : '10.11.150.141', 'port' : spec.PORT}, {'host' : '10.11.150.153', 'port' : spec.PORT}]
 
 
 ## 
